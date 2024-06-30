@@ -4,7 +4,7 @@ public class App {
         
         System.out.println("Main Start");
         CustomThread customThread=new CustomThread();
-        // customThread.setDaemon(true);
+        customThread.setDaemon(true);
         customThread.start();
 
         System.out.println("Main end");

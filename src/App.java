@@ -6,6 +6,8 @@ public class App {
         CustomThread customThread=new CustomThread();
         customThread.setDaemon(true);
         customThread.start();
+        CustomThread2 thread2=new CustomThread2();
+        thread2.start();
 
         System.out.println("Main end");
     }
